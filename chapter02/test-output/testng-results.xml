@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="873" started-at="2019-10-03T10:45:08 CAT" finished-at="2019-10-03T10:45:09 CAT">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="873" started-at="2019-10-03T10:45:08 CAT" finished-at="2019-10-03T10:45:09 CAT">
+      <class name="mz.co.muianga.beginning.hibernate5.PersistenceTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:mz.co.muianga.beginning.hibernate5.PersistenceTest@7b49cea0]" name="setup" is-config="true" duration-ms="4050" started-at="2019-10-03T10:45:04 CAT" finished-at="2019-10-03T10:45:08 CAT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="saveMessage()[pri:0, instance:mz.co.muianga.beginning.hibernate5.PersistenceTest@7b49cea0]" name="saveMessage" duration-ms="544" started-at="2019-10-03T10:45:08 CAT" finished-at="2019-10-03T10:45:09 CAT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- saveMessage -->
+        <test-method status="PASS" signature="readMessage()[pri:0, instance:mz.co.muianga.beginning.hibernate5.PersistenceTest@7b49cea0]" name="readMessage" duration-ms="292" started-at="2019-10-03T10:45:09 CAT" depends-on-methods="mz.co.muianga.beginning.hibernate5.PersistenceTest.saveMessage" finished-at="2019-10-03T10:45:09 CAT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readMessage -->
+      </class> <!-- mz.co.muianga.beginning.hibernate5.PersistenceTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

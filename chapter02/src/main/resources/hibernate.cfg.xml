@@ -16,6 +16,6 @@
 		<!-- Drop and re-create the database schema on startup -->
 		<property name="hbm2ddl.auto">create-drop</property>
 		
-		<mapping class="mz.co.muianga.beginning.hibernate5"/>
+		<mapping class="mz.co.muianga.beginning.hibernate5.Message"/>
 	</session-factory>
 </hibernate-configuration>
